@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  web:
+    image: 172.17.8.101:5000/stackdemo
+    build: .
+    ports:
+      - "8000:8000"
+    networks:
+      - app
+  redis:
+    image: redis:alpine
+    networks:
+      - app
+
+networks:
+  app:
+    driver: overlay
+    driver_opts:
+      encrypted: "True"

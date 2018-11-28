@@ -1,0 +1,6 @@
+{
+  "insecure-registries" : ["172.17.8.101:5000"],
+  "metrics-addr" : "0.0.0.0:9323",
+  "experimental" : true
+}
+
