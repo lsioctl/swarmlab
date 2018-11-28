@@ -2,6 +2,13 @@
 
 A lab to play with Docker Swarm on your workstation
 
+The main idea was to explore Docker networking as it was
+done in this amazing article:
+
+https://neuvector.com/network-security/docker-swarm-container-networking/
+
+labs notes are in labs.md
+
 ## TODO
 
 * I use curently coreos-vagrant, but it would be nicer to use a simple
